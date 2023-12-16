@@ -5,8 +5,8 @@ same characters as the input, except that its characters should be sorted in ord
 the lowest Unicode value to the highest Unicode value.
 '''
 
-def string_sort(a_string):
-    return ''.join(sorted(a_string))
+def string_sort(word):
+    return ''.join(sorted(word))
 
 
 if __name__ == '__main__':
