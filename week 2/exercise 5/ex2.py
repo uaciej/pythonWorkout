@@ -7,7 +7,7 @@ def pig_latin(word):
     if word[0].lower() in 'aeiou':
         return word + "way"
     elif word[0].isupper():
-        return (word[1:] + word[0].lower() + 'ay').capitalize()
+        return (word[1:] + word[0] + 'ay').capitalize()
     else:
         return word[1:] + word[0] + 'ay'
     
