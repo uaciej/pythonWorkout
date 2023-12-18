@@ -6,9 +6,7 @@ between the names.
 
 def string_sort(sentence):
     words = sentence.split()
-    for word in words:
-        new_word = ''.join(sorted(word))
-        yield new_word
+    return sorted(words)
 
 
 
