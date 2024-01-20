@@ -4,7 +4,7 @@ sum of each inner list’s numbers.
 '''
 
 def sum_of_nums_in_list(lis):
-    return sorted(lis, key=lambda x: sum(num for num in x), reverse=True)
+    return sorted(lis, key=sum, reverse=True)
 
 
 if __name__ == "__main__":
