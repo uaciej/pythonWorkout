@@ -13,8 +13,8 @@ DATABASE = {
 }
 
 def login():
-    user = input("Username: ")
-    password = input("Password: ")
+    user = input("Username: ").strip()
+    password = input("Password: ").strip()
     if DATABASE.get(user) == password:
         print(f"Welcome {user}")
     else:
