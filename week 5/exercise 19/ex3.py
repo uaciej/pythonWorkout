@@ -11,7 +11,7 @@ def ints_with_factors():
         num = int(num)
         for i in range(1, num//2 + 1):
             if num % i == 0:
-                output[i] = output.get(i, [])
+                output[i] = output.get(i, [i])
                 output[i].append(num)
     return output
 
