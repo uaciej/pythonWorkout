@@ -13,7 +13,7 @@ def file_sizes(directory = '..'):
 
         if os.path.isfile(filepath):
             size = os.stat(filepath).st_size
-            file_sizes[filename] = size
+            count[filename] = size
 
     return count
 

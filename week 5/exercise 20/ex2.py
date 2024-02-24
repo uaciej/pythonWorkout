@@ -6,8 +6,8 @@ keys and the counts as the values.
 '''
 
 def  count_words(file, word_list):
+    count = {word : 0 for word in word_list}
     with open(file, 'r') as f:
-        count = {word : 0 for word in word_list}
         for line in f:
            words_in_line = line.split()
            for word in words_in_line:
