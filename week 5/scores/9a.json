@@ -1,17 +1,7 @@
-{
-    "science": {
-        "min": 75,
-        "max": 97,
-        "average": 86.4
-    },
-    "literature": {
-        "min": 78,
-        "max": 98,
-        "average": 83.6
-    },
-    "math": {
-        "min": 65,
-        "max": 100,
-        "average": 85.0
-    }
-}
+[
+    {"math": 90, "literature": 98, "science": 97},
+    {"math": 65, "literature": 79, "science": 85},
+    {"math": 78, "literature": 83, "science": 75},
+    {"math": 92, "literature": 78, "science": 85},
+    {"math": 100, "literature": 80, "science": 90}
+]
