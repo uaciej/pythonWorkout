@@ -22,7 +22,7 @@ def get_files_data(directory):
     with open('../filedata.json', 'w') as json_file:
         json.dump(output, json_file)
 
-def read_file_data(file):
+def read_files_data(file):
     with open(file) as f:
         data = json.load(f)
         data_sorted_by_size = sorted(data, key=lambda x: x['size'])
@@ -39,4 +39,4 @@ def read_file_data(file):
 if __name__ == '__main__':
     dirname = input("Enter a directory name: ")
     get_files_data(dirname)
-    read_file_data('../filedata.json')
+    read_files_data('../filedata.json')
