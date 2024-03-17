@@ -1,0 +1,14 @@
+The quick brown fox jumps over the lazy dog.
+
+123456789012345678901234567890
+
+This line is long and contains several vowels.
+Python is an awesome programming language!
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Why did the chicken cross the road? To get to the other side!
+abcdefghijklmnopqrstuvwxyz
+!@#$%^&*()-_=+[]{}|;:'",.<>?/~`
+
+I love coding in PHP and I am not gay.
