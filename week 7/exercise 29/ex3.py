@@ -17,7 +17,7 @@ we want to convert them to ['124-456-7890', '124-333-4444', '124-777-
 def change_phone(lst):
     return [
         '-'.join([str(int(phone.split('-')[0]) +1), phone.split('-')[1], phone.split('-')[2]])
-        if int(phone.split('-')[1][1]) < 6
+        if int(phone.split('-')[1][0]) < 6
         else phone for phone in lst
         ]
 
