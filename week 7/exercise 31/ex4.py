@@ -8,7 +8,7 @@ from collections import Counter
 
 
 def popular(lst):
-    return Counter([val for s in [elem[hobby] for elem in lst for hobby in elem if hobby == 'hobbies'] for val in s]).most_common(3)
+    return [hobbies[0] for hobbies in Counter([val for s in [elem['hobbies'] for elem in lst] for val in s]).most_common(3)]
 
 
 
